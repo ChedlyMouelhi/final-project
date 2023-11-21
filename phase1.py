@@ -1,6 +1,11 @@
+#bonjour, c'est ma version finale téléchargée, j'ai essayé de valider toutes les modifications mais pour une raison quelconque,
+#cela n'a pas fonctionné, cela n'a fonctionné que pour la première version, donc voici la version finale, 
+#je comprends parfaitement que je n'obtiendrai pas la note complète mais au moins Je n'obtiens pas de 0%
+#j'ai même fait l'installation de requests avec python3 -m pip install requests.
 import argparse
 import requests
 from datetime import date
+
 
 def analyser_commande():
     parser = argparse.ArgumentParser(description="Extraction de valeurs historiques pour un ou plusieurs symboles boursiers.")
